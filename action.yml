@@ -4,8 +4,7 @@ branding:
   icon: code
   color: green
 inputs:
-  # Store in your repo secrets as CS_KEYS_PAT and set like this : 
-  #   pat: ${{ secrets.CS_KEYS_PAT }}  
+  # Store in your repo secrets as CS_KEYS_PAT
   pat: 
     description: 'Personal Access Token  with codespaces and repo.read permissions'
     required: true
@@ -14,21 +13,21 @@ inputs:
   #   Specify Repos - repos: orgname/my-repo-one,shellerci/codespace-keys
   repos: 
     description: 'CSV list of repo IDs to include'
-    required: true
+    required: false
     default: 'all'
   # CSV list of keys to update
   #   Update all Keys - keys: all
   #   Specify Keys - MY_SECRETNAME,ANOTHER_SECRETNAME
   keys: 
     description: 'CSV list of keys to update'
-    required: true
+    required: false
     default: all
   # Type of update to make.
   #   Replace access list - action: replace
   #   Update access list  - action: update
   action: 
     description: "Update type"
-    required: true
+    required: false
     default: 'update'
 
 runs:
