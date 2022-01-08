@@ -1,12 +1,14 @@
 name: 'Codespace Keys'
 description: 'Update Repo access for your codespace keys en masse'
+branding:
+  icon: code
+  color: green
 inputs:
-  # PAT Token with codespaces and repo.read permissions
-  # Store it in your repository secrets as CS_KEYS_PAT
+  # Store in your repo secrets as CS_KEYS_PAT and set like this : 
+  #   pat: ${{ secrets.CS_KEYS_PAT }}  
   pat: 
-    description: 'Personal Access Token'
+    description: 'Personal Access Token  with codespaces and repo.read permissions'
     required: true
-    default: ${{ secrets.CS_KEYS_PAT }}
   # CSV list of repos to allow key access to. 
   #   Retrieve all repos - repos: all  
   #   Specify Repos - repos: orgname/my-repo-one,shellerci/codespace-keys
