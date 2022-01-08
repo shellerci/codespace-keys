@@ -1,0 +1,34 @@
+name: 'Codespace Keys'
+description: 'Update Repo access for your codespace keys en masse'
+inputs:
+  # PAT Token with codespaces and repo.read permissions
+  # Store it in your repository secrets as CS_KEYS_PAT
+  pat: 
+    description: 'Personal Access Token'
+    required: true
+    default: ${{ secrets.CS_KEYS_PAT }}
+  # CSV list of repos to allow key access to. 
+  #   Retrieve all repos - repos: all  
+  #   Specify Repos - repos: orgname/my-repo-one,shellerci/codespace-keys
+  repos: 
+    description: 'CSV list of repo IDs to include'
+    required: true
+    default: 'all'
+  # CSV list of keys to update
+  #   Update all Keys - keys: all
+  #   Specify Keys - MY_SECRETNAME,ANOTHER_SECRETNAME
+  keys: 
+    description: 'CSV list of keys to update'
+    required: true
+    default: all
+  # Type of update to make.
+  #   Replace access list - action: replace
+  #   Update access list  - action: update
+  action: 
+    description: "Update type"
+    required: true
+    default: 'update'
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
