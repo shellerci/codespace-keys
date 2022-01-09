@@ -1,30 +1,28 @@
-name: 'Codespace Keys'
-description: 'Update Repo access for your codespace keys en masse'
+name: 'Codespaces Key Sync'
+description: 'Update Repo access for your codespaces keys en masse'
 branding:
   icon: code
   color: green
 inputs:
-  # Store in your repo secrets as CS_KEYS_PAT
+  # Recommended to store in your repo secrets as  CS_KEYS_PAT
   pat: 
     description: 'Personal Access Token  with codespaces and repo.read permissions'
     required: true
-  # CSV list of repos to allow key access to. 
-  #   Retrieve all repos - repos: all  
-  #   Specify Repos - repos: orgname/my-repo-one,shellerci/codespace-keys
+  # Organization you wish to query
+  organization: 
+    description: "Organization"
+    required: true
+  # CSV list of repos to allow key access to. (orgname/my-repo-one,)
   repos: 
     description: 'CSV list of repo IDs to include'
     required: false
     default: 'all'
   # CSV list of keys to update
-  #   Update all Keys - keys: all
-  #   Specify Keys - MY_SECRETNAME,ANOTHER_SECRETNAME
   keys: 
     description: 'CSV list of keys to update'
     required: false
     default: all
-  # Type of update to make.
-  #   Replace access list - action: replace
-  #   Update access list  - action: update
+  # Type of update to make. Update preserves existing, replace overwrites
   action: 
     description: "Update type"
     required: false

@@ -1,7 +1,7 @@
 {
   "name": "codespace-keys",
   "version": "1.0.0",
-  "description": "JavaScript Action Template",
+  "description": "Update Codespaces Keys for all your orgs repos",
   "main": "index.js",
   "type": "module",
   "exports" : {
@@ -16,19 +16,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/javascript-action.git"
+    "url": "git+https://github.com/shellerci/codespace-keys.git"
   },
   "keywords": [
     "GitHub",
     "Actions",
-    "JavaScript"
+    "JavaScript",
+    "Codespaces",
+    "Utility"
   ],
   "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/actions/javascript-action/issues"
-  },
-  "homepage": "https://github.com/actions/javascript-action#readme",
+  "homepage": "https://github.com/shellerci/codespace-keys",
   "dependencies": {
     "@actions/core": "^1.6.0",
     "@octokit/plugin-throttling": "^3.5.2",
