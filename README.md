@@ -14,22 +14,22 @@ This does work perfectly well on the command line.. Just
 - update the organization field with your orgname
 - run index.js
 ```
-Retrieved codespace repositories for custominkcustomink/xxxxxx, customink/xxxxxx, etc....
-Retrieved codespace keys XX_XXX_XXXXX1,XX_XXX_XXXXX2,XX_XXX_XXXXX3,XX_XXX_XXXXX4,XX_XXX_XXXXX5,XX_XXX_XXXXX6,XX_XXX_XXXXX7
-Retrieved existing permissions for XX_XXX_XXXXX1 11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111
-Retrieved existing permissions for XX_XXX_XXXXX2 11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111
-Retrieved existing permissions for XX_XXX_XXXXX3 11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111
-Retrieved existing permissions for XX_XXX_XXXXX4 11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111
-Retrieved existing permissions for XX_XXX_XXXXX5 11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111
-Retrieved existing permissions for XX_XXX_XXXXX6 11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111
-Retrieved existing permissions for XX_XXX_XXXXX7 11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111
-Successfully set permissions for XX_XXX_XXXXX1
-Successfully set permissions for XX_XXX_XXXXX2
-Successfully set permissions for XX_XXX_XXXXX3
-Successfully set permissions for XX_XXX_XXXXX4
-Successfully set permissions for XX_XXX_XXXXX5
-Successfully set permissions for XX_XXX_XXXXX6
-Successfully set permissions for XX_XXX_XXXXX7
+Retrieved codespace repositories for orgname/repoId_11111, orgname/repoId_22222, orgname/repoId_33333 etc....
+Retrieved codespace keys SECRET_1,SECRET_1,SECRET_1,SECRET_1,SECRET_1,SECRET_1,SECRET_1
+Retrieved existing permissions for SECRET_1 11111,22222,33333,44444,55555,66666,77777,88888
+Retrieved existing permissions for SECRET_2 11111,22222,33333,44444,55555,66666,77777,88888
+Retrieved existing permissions for SECRET_3 11111,22222,33333,44444,55555,66666,77777,88888
+Retrieved existing permissions for SECRET_4 11111,22222,33333,44444,55555,66666,77777,88888
+Retrieved existing permissions for SECRET_5 11111,22222,33333,44444,55555,66666,77777,88888
+Retrieved existing permissions for SECRET_6 11111,22222,33333,44444,55555,66666,77777,88888
+Retrieved existing permissions for SECRET_7 11111,22222,33333,44444,55555,66666,77777,88888
+Successfully set permissions for SECRET_1
+Successfully set permissions for SECRET_2
+Successfully set permissions for SECRET_3
+Successfully set permissions for SECRET_4
+Successfully set permissions for SECRET_5
+Successfully set permissions for SECRET_6
+Successfully set permissions for SECRET_7
 ```
 
 Aaaaand, you're all authorized
