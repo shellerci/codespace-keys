@@ -1,4 +1,4 @@
-# Sync Codespace Keys ⛔️ (non-functional, don't use this)
+# Sync Codespace Keys ⛔️ Not Functional As An Action, DO NOT USE IT AS AN ACTION
 
 As the number of codespaces enabled projects in your organization grows, making sure that they all are enabled able to access the codespace secrets needed to function becomes increasingly tedious. 
 
