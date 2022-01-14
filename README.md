@@ -15,7 +15,7 @@ This does work perfectly well on the command line.. Just
 - run index.js
 ```
 Retrieved codespace repositories for orgname/repoId_11111, orgname/repoId_22222, orgname/repoId_33333 etc....
-Retrieved codespace keys SECRET_1,SECRET_1,SECRET_1,SECRET_1,SECRET_1,SECRET_1,SECRET_1
+Retrieved codespace keys SECRET_1,SECRET_2,SECRET_3,SECRET_4,SECRET_5,SECRET_6,SECRET_7
 Retrieved existing permissions for SECRET_1 11111,22222,33333,44444,55555,66666,77777,88888
 Retrieved existing permissions for SECRET_2 11111,22222,33333,44444,55555,66666,77777,88888
 Retrieved existing permissions for SECRET_3 11111,22222,33333,44444,55555,66666,77777,88888
