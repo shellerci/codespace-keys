@@ -31,8 +31,8 @@
   "dependencies": {
     "@actions/core": "^1.6.0",
     "@octokit/plugin-throttling": "^4.0.1",
-    "@octokit/rest": "^18.12.0",
-    "octokit": "^1.7.1"
+    "@octokit/rest": "^19.0.3",
+    "octokit": "^2.0.3"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.31.1",
